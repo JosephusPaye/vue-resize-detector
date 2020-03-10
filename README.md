@@ -1,24 +1,33 @@
-# vue-resize-detector
+# Vue Resize Detector
 
-## Project setup
-```
-yarn install
-```
+↔ Detect and handle element resizes with high performance via [ResizeObservers](https://wicg.github.io/ResizeObserver/). <https://vue-resize-detector.netlify.com>
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+<!-- [![Promotional screenshot of Vue Resize Detector](./screenshot.png)](https://vue-resize-detector.netlify.com) -->
 
-### Compiles and minifies for production
-```
-yarn build
-```
+This project is part of [#CreateWeekly](https://dev.to/josephuspaye/createweekly-create-something-new-publicly-every-week-in-2020-1nh9), my attempt to create something new publicly every week in 2020.
 
-### Lints and fixes files
+## How it works
+
+Vue Resize Detector is a port of the excellent [React Resize Detector](https://raw.githubusercontent.com/maslianok/react-resize-detector/), and uses the [ResizeObserver](https://wicg.github.io/ResizeObserver/) API (polyfilled if necessary) to detect elements resizes.
+
+## Installation
+
 ```
-yarn lint
+npm install vue-resize-detector
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Usage
+
+<!-- Document usage -->
+
+## API
+
+<!-- Document API -->
+
+## Contributing
+
+See [contribution guide](CONTRIBUTING.md).
+
+## Licence
+
+[MIT](LICENCE)
