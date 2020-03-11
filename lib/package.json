@@ -1,0 +1,29 @@
+{
+  "name": "vue-resize-detector",
+  "version": "0.1.0",
+  "description": "Detect and handle element resizes in Vue with optimal performance using ResizeObservers.",
+  "main": "dist/vue-resize-detector.cjs.js",
+  "module": "dist/vue-resize-detector.esm.js",
+  "browser": "dist/vue-resize-detector.umd.js",
+  "author": "Josephus Paye II",
+  "license": "MIT",
+  "scripts": {
+    "dev": "rollup -c --watch",
+    "build": "rollup -c --compact",
+    "test": "echo \"not yet\""
+  },
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "raf-schd": "^4.0.2",
+    "resize-observer-polyfill": "^1.5.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^11.0.2",
+    "@rollup/plugin-node-resolve": "^7.1.1",
+    "rollup": "^1.31.0",
+    "rollup-plugin-terser": "^5.2.0"
+  },
+  "files": [
+    "dist/*"
+  ]
+}
