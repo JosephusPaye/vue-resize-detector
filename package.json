@@ -12,7 +12,7 @@
     "emojicon": "^0.1.1",
     "tailwindcss": "^1.2.0",
     "vue": "^2.6.11",
-    "vue-resize-detector": "^0.1.0"
+    "vue-resize-detector": "^0.2.0"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^2.1.0",

@@ -2,9 +2,9 @@
 
 🔷 Detect and handle element size changes in Vue using [ResizeObservers](https://wicg.github.io/ResizeObserver/) for optimal performance.
 
-Vue Resize Detector is based on the excellent [React Resize Detector](https://github.com/maslianok/react-resize-detector/), and uses the [ResizeObserver](https://wicg.github.io/ResizeObserver/) API (automatically polyfilled) to detect when a target element's size changes.
+[![Promotional screenshot of Vue Resize Detector](./screenshot.png)](https://vue-resize-detector.netlify.com)
 
-<!-- [![Promotional screenshot of Vue Resize Detector](./screenshot.png)](https://vue-resize-detector.netlify.com) -->
+Vue Resize Detector is based on the excellent [React Resize Detector](https://github.com/maslianok/react-resize-detector/), and uses the [ResizeObserver](https://wicg.github.io/ResizeObserver/) API (automatically polyfilled) to detect when a target element's size changes.
 
 This project is part of [#CreateWeekly](https://dev.to/josephuspaye/createweekly-create-something-new-publicly-every-week-in-2020-1nh9), my attempt to create something new publicly every week in 2020.
 

@@ -101,7 +101,7 @@
 </template>
 
 <script>
-import ResizeDetector from '../lib/dist/vue-resize-detector.umd';
+import ResizeDetector from 'vue-resize-detector';
 import CheckButton from './CheckButton.vue';
 import ToggleButton from './ToggleButton.vue';
 

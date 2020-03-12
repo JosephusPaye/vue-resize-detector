@@ -8492,10 +8492,10 @@ vue-loader@^15.8.3:
     vue-hot-reload-api "^2.3.0"
     vue-style-loader "^4.1.0"
 
-vue-resize-detector@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/vue-resize-detector/-/vue-resize-detector-0.1.0.tgz#ce6dde1d84a3d493fd6e24686d3f57502c0f8297"
-  integrity sha512-AJ2et00ktNGFn2eKHRson7L2umNyDsZ0Sf9pg4+tznJ4VKzlwwK77bH1yj0bvM3iIc/aZjudyMQj81tAStysmA==
+vue-resize-detector@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/vue-resize-detector/-/vue-resize-detector-0.2.0.tgz#5e5435df225e6a2d66801a7ff1f32148c869131c"
+  integrity sha512-YxW3I6aYRX3Oe4sJRGWwYF9Tqj8rT0i1wJJJSlJQFItk2329sRoIGYo4FlqR2fg0qkCCxoPklSUVP1em2jCRWQ==
   dependencies:
     lodash "^4.17.15"
     raf-schd "^4.0.2"
