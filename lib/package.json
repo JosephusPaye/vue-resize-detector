@@ -1,6 +1,6 @@
 {
   "name": "vue-resize-detector",
-  "version": "0.1.0",
+  "version": "0.0.9",
   "description": "Detect and handle element resizes in Vue with optimal performance using ResizeObservers.",
   "main": "dist/vue-resize-detector.cjs.js",
   "module": "dist/vue-resize-detector.esm.js",
