@@ -1,3 +1,8 @@
 # Vue Resize Detector
 
-See [GitHub](https://github.com/JosephusPaye/vue-resize-detector#vue-resize-detector) for documentation and usage examples.
+🔷 Detect and handle element resizes in Vue using [ResizeObservers](https://wicg.github.io/ResizeObserver/) for optimal performance.
+
+## Documentation
+
+- Demo: <https://vue-resize-detector.netlify.com>.
+- Documentation and usage: [JosephusPaye/vue-resize-detector](https://github.com/JosephusPaye/vue-resize-detector#vue-resize-detector).
