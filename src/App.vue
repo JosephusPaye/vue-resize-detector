@@ -16,15 +16,15 @@
         >
       </div>
 
-      <div class="flex min-w-0 mt-12">
-        <div class="flex">
+      <div class="flex flex-col lg:flex-row min-w-0 mt-12">
+        <div class="flex h-10">
           <CheckButton :checked.sync="observeWidth">Observe width</CheckButton>
           <CheckButton :checked.sync="observeHeight" class="ml-1"
             >Observe height</CheckButton
           >
         </div>
 
-        <div class="mx-auto">
+        <div class="mt-3 lg:mt-0 lg:mx-auto h-10">
           <ToggleButton :value.sync="rateLimiter">No limit</ToggleButton>
           <ToggleButton id="debounce" :value.sync="rateLimiter"
             >Debounce</ToggleButton
@@ -35,7 +35,7 @@
         </div>
 
         <div
-          class="flex items-center"
+          class="mt-3 lg:mt-0 lg:flex lg:items-center h-10"
           :class="{ 'opacity-50': rateLimiter === undefined }"
         >
           <span
