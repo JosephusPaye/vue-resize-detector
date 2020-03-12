@@ -8,6 +8,7 @@
   "author": "Josephus Paye II",
   "license": "MIT",
   "scripts": {
+    "clean": "rm -rf dist",
     "dev": "rollup -c --watch",
     "build": "rollup -c --compact",
     "test": "echo \"not yet\""
