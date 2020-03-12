@@ -1,6 +1,6 @@
 # Vue Resize Detector
 
-🔷 Detect and handle element resizes in Vue using [ResizeObservers](https://wicg.github.io/ResizeObserver/) for optimal performance.
+🔷 Detect and handle element size changes in Vue using [ResizeObservers](https://wicg.github.io/ResizeObserver/) for optimal performance.
 
 Vue Resize Detector is based on the excellent [React Resize Detector](https://github.com/maslianok/react-resize-detector/), and uses the [ResizeObserver](https://wicg.github.io/ResizeObserver/) API (automatically polyfilled) to detect when a target element's size changes.
 
