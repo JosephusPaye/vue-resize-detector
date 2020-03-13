@@ -83,7 +83,7 @@ You can change the element that is watched for size changes by setting the `targ
 <template>
   <div>
     <div id="my-target">Target element</div>
-    <ResizeDetector target="#my-target" observe-width observe-height />
+    <ResizeDetector target="#my-target" observe-width observe-height @resize="onResize" />
     <p>{{ width }} x {{ height }}</p>
   </div>
 </template>
